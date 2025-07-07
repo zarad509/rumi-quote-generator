@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=UnifrakturCook:wght@700&family=IM+Fell+English&display=swap');
+
+body {
+    background: url('https://www.transparenttextures.com/patterns/parchment.png');
+    background-color: #f4ecd8;
+    font-family: 'IM Fell English', serif;
+    color: #3e2f1c;
+    text-align: center;
+    padding: 50px;
+    margin: 0;
+}
+
+h1 {
+    font-family: 'UnifrakturCook', cursive;
+    font-size: 3rem;
+    margin-bottom: 30px;
+    color: #4b2e1a;
+    text-shadow: 1px 1px 2px #c9b37d;
+}
+
+#quote {
+    min-height: 120px; 
+}
+
+#quote {
+    font-size: 1.5rem;
+    margin: 30px auto;
+    max-width: 600px;
+    line-height: 1.8;
+    background-color: rgba(255, 255, 240, 0.8);
+    border: 2px solid #a1865e;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
+}
+
+button {
+    margin-top: 20px;
+    background-color: #a1865e;
+    border: none;
+    color: white;
+    font-family: 'IM Fell English', serif;
+    padding: 12px 25px;
+    font-size: 1.1rem;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.container {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 40px;
+}
+
+button:hover {
+    background-color: #8c734f;
+    transform: scale(1.05);
+}
+
+button:active {
+    background-color: #715a3c;
+}
